@@ -1,53 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T23:53:56.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="bucGK1xCITlyRYDKwoWi" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T00:11:08.664Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="B0jDee9dIyZyk0JkJdM4" version="20.5.1" type="github">
   <diagram id="R4Ecdk5A4x7nAiUY_9-N" name="Page-1">
-    <mxGraphModel dx="556" dy="365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-1" value="Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-1" value="Model" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7BENfvtBqiGWOBBRQIPn-2" target="7BENfvtBqiGWOBBRQIPn-3">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7BENfvtBqiGWOBBRQIPn-2" target="7BENfvtBqiGWOBBRQIPn-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-2" value="ESP32 Camera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-2" value="ESP32 Camera" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7BENfvtBqiGWOBBRQIPn-3" target="7BENfvtBqiGWOBBRQIPn-4">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7BENfvtBqiGWOBBRQIPn-3" target="7BENfvtBqiGWOBBRQIPn-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-3" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-3" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-4" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-4" value="User" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7BENfvtBqiGWOBBRQIPn-9" target="7BENfvtBqiGWOBBRQIPn-2">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="7BENfvtBqiGWOBBRQIPn-9" target="7BENfvtBqiGWOBBRQIPn-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-9" value="1. Capute image&lt;br&gt;2. Send image to server." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-9" value="1. Capute image&lt;br&gt;2. Send image to server." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="560" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7BENfvtBqiGWOBBRQIPn-10" target="7BENfvtBqiGWOBBRQIPn-3">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7BENfvtBqiGWOBBRQIPn-10" target="7BENfvtBqiGWOBBRQIPn-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-10" value="1. Create an API for user to talk to&lt;br&gt;2. Send predictions to the user.&lt;br&gt;3. Keep track of images" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-10" value="1. Create an API for user to talk to&lt;br&gt;2. Send predictions to the user.&lt;br&gt;3. Keep track of images" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="290" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7BENfvtBqiGWOBBRQIPn-27" target="7BENfvtBqiGWOBBRQIPn-1">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7BENfvtBqiGWOBBRQIPn-27" target="7BENfvtBqiGWOBBRQIPn-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-27" value="1. Detect white lines&lt;br&gt;2. Determine parking spot&lt;br&gt;3. Classify if car is present&lt;br&gt;4. Return # of empty spots" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-27" value="1. Detect white lines&lt;br&gt;2. Determine parking spot&lt;br&gt;3. Classify if car is present&lt;br&gt;4. Return # of empty spots" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="120" width="175" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7BENfvtBqiGWOBBRQIPn-31" value="Akhil" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7BENfvtBqiGWOBBRQIPn-31" value="Akhil" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <UserObject label="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Tasks&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. ESP32&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Arudino&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Create server with flask&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;https://flask.palletsprojects.com/en/2.2.x/quickstart/#a-minimal-application&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" link="https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/" id="7BENfvtBqiGWOBBRQIPn-32">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="60" y="610" width="390" height="210" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="HakNs6LGtilwc-Nb3h1h-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
